@@ -9,5 +9,9 @@ export default defineConfig({
     alias:[
       {find:"@",replacement:"/src"}
     ]
-  }
+  },
+  base: '/',
+  build: {
+    outDir: 'dist',
+  },
 })
