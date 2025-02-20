@@ -55,9 +55,9 @@ export const GithubCallBack = () => {
 
         setAuthModel({
           id: profileData.id,
-          firstName: profileData.firstName,
-          lastName: profileData.lastName,
-          fullName: profileData.fullName,
+          firstName: profileData.first_name,
+          lastName: profileData.last_name,
+          fullName: profileData.full_name,
           email: profileData.email,
           picture: profileData.picture,
         });
